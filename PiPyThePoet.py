@@ -6,7 +6,7 @@ import randomSentence
 
 KEYS = [line.rstrip('\n') for line in open('keys.txt')]
 
-# PiPy's twitter keys/authentification tokens
+# PiPy's twitter keys/authentication tokens
 APP_KEY = KEYS[0]
 APP_SECRET = KEYS[1]
 OAUTH_TOKEN = KEYS[2]
